@@ -1,0 +1,47 @@
+Incendio Florestal
+Local: Porto
+Codigo Postal: 4200-100
+Data: 13-3-2013
+Area: 1000
+
+Incendio Florestal
+Local: Porto
+Codigo Postal: 4200-200
+Data: 16-10-2017
+Area: 27
+
+Incendio Domestico
+Local: Algarve
+Codigo Postal: 8300-100
+Data: 10-8-2016
+Apartamento
+
+Assalto
+Local: Famalicao
+Codigo Postal: 4760-300
+Data: 26-2-2017
+Numero de Feridos: 17
+Casa Particular
+
+Acidente de Viacao
+Local: Lisboa
+Codigo Postal: 6000-230
+Data: 26-2-2017
+Numero de Feridos: 7
+Numero de Veiculos Envolvidos: 3
+Estrada Nacional
+
+Assalto
+Local: Viseu
+Codigo Postal: 5000-300
+Data: 23-5-2016
+Numero de Feridos: 2
+Casa Comercial
+
+Acidente de Viacao
+Local: Porto
+Codigo Postal: 6000-300
+Data: 12-5-2016
+Numero de Feridos: 7
+Numero de Veiculos Envolvidos: 4
+Autoestrada

@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: Código-Fonte de local.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">local.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="local_8cpp.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * local.cpp</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *  Created on: 28/10/2017</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *      Author: Asus</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> */</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="local_8h.html">local.h</a>&quot;</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<a class="code" href="class_local.html#a2d768ccf56d02a9dae7e87c973c9876a">Local::Local</a>(<span class="keywordtype">string</span> dist, <span class="keywordtype">string</span> cPostal) {</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    distrito  = dist;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    istringstream ss;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">char</span> hifen;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    ss.str(cPostal);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    ss &gt;&gt; codigoPostal1 &gt;&gt; hifen &gt;&gt; codigoPostal2;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<a class="code" href="class_local.html#a2d768ccf56d02a9dae7e87c973c9876a">Local::Local</a>(<span class="keywordtype">string</span> dist) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    distrito = dist;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_local.html#a9772b231da8bf87d10ce02b48c7e6193">   26</a></span>&#160;<span class="keywordtype">string</span> <a class="code" href="class_local.html#a9772b231da8bf87d10ce02b48c7e6193">Local::getDistrito</a>()<span class="keyword"> const </span>{</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">return</span> distrito;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_local.html#aa1fca95e03081e8d741261ddb0d84214">   30</a></span>&#160;<span class="keywordtype">string</span> <a class="code" href="class_local.html#aa1fca95e03081e8d741261ddb0d84214">Local::getCodigoPostal</a>()<span class="keyword"> const </span>{</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    stringstream ss;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    ss &lt;&lt; codigoPostal1 &lt;&lt; <span class="stringliteral">&quot;-&quot;</span> &lt;&lt; codigoPostal2;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> ss.str();</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_local.html#a21723f587e809de94ac8ee79c9d3168d">   36</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="class_local.html#a21723f587e809de94ac8ee79c9d3168d">Local::getCodigoPostal1</a>()<span class="keyword"> const </span>{</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">return</span> codigoPostal1;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="class_local.html#a4de59c7f340d2ea03a514dd29ce7452d">   40</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="class_local.html#a4de59c7f340d2ea03a514dd29ce7452d">Local::getCodigoPostal2</a>()<span class="keyword"> const </span>{</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">return</span> codigoPostal2;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="class_local.html#a5d6744ed8f259160383b6b2c18db107a">   44</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_local.html#a5d6744ed8f259160383b6b2c18db107a">Local::setCodigoPostal1</a>(<span class="keywordtype">int</span> cp1) {</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">if</span> (cp1 &lt; 100 || cp1 &gt; 9999)</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">throw</span> <a class="code" href="class_codigo_postal_invalido.html">CodigoPostalInvalido</a>();</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    codigoPostal1 = cp1;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="class_local.html#af64a00c21459997966fae4b8ddfc44e1">   50</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_local.html#af64a00c21459997966fae4b8ddfc44e1">Local::setCodigoPostal2</a>(<span class="keywordtype">int</span> cp2) {</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">if</span> (cp2 &lt; 100 || cp2 &gt; 999)</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">throw</span> <a class="code" href="class_codigo_postal_invalido.html">CodigoPostalInvalido</a>();</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    codigoPostal2 = cp2;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="class_local.html#a14329e264828d87594dd7483dd5847ce">   56</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="class_local.html#a14329e264828d87594dd7483dd5847ce">Local::operator== </a>(<span class="keyword">const</span> <a class="code" href="class_local.html">Local</a> &amp;l1) {</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">if</span> (distrito == l1.<a class="code" href="class_local.html#a9772b231da8bf87d10ce02b48c7e6193">getDistrito</a>() &amp;&amp; getCodigoPostal() == l1.<a class="code" href="class_local.html#aa1fca95e03081e8d741261ddb0d84214">getCodigoPostal</a>())</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div><div class="ttc" id="class_local_html"><div class="ttname"><a href="class_local.html">Local</a></div><div class="ttdef"><b>Definition:</b> <a href="local_8h_source.html#l00019">local.h:19</a></div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="class_local_html_a4de59c7f340d2ea03a514dd29ce7452d"><div class="ttname"><a href="class_local.html#a4de59c7f340d2ea03a514dd29ce7452d">Local::getCodigoPostal2</a></div><div class="ttdeci">int getCodigoPostal2() const</div><div class="ttdef"><b>Definition:</b> <a href="local_8cpp_source.html#l00040">local.cpp:40</a></div></div>
+<div class="ttc" id="class_local_html_a9772b231da8bf87d10ce02b48c7e6193"><div class="ttname"><a href="class_local.html#a9772b231da8bf87d10ce02b48c7e6193">Local::getDistrito</a></div><div class="ttdeci">std::string getDistrito() const</div><div class="ttdef"><b>Definition:</b> <a href="local_8cpp_source.html#l00026">local.cpp:26</a></div></div>
+<div class="ttc" id="class_local_html_af64a00c21459997966fae4b8ddfc44e1"><div class="ttname"><a href="class_local.html#af64a00c21459997966fae4b8ddfc44e1">Local::setCodigoPostal2</a></div><div class="ttdeci">void setCodigoPostal2(int cp2)</div><div class="ttdef"><b>Definition:</b> <a href="local_8cpp_source.html#l00050">local.cpp:50</a></div></div>
+<div class="ttc" id="class_local_html_aa1fca95e03081e8d741261ddb0d84214"><div class="ttname"><a href="class_local.html#aa1fca95e03081e8d741261ddb0d84214">Local::getCodigoPostal</a></div><div class="ttdeci">std::string getCodigoPostal() const</div><div class="ttdef"><b>Definition:</b> <a href="local_8cpp_source.html#l00030">local.cpp:30</a></div></div>
+<div class="ttc" id="class_local_html_a14329e264828d87594dd7483dd5847ce"><div class="ttname"><a href="class_local.html#a14329e264828d87594dd7483dd5847ce">Local::operator==</a></div><div class="ttdeci">bool operator==(const Local &amp;l1)</div><div class="ttdef"><b>Definition:</b> <a href="local_8cpp_source.html#l00056">local.cpp:56</a></div></div>
+<div class="ttc" id="class_local_html_a21723f587e809de94ac8ee79c9d3168d"><div class="ttname"><a href="class_local.html#a21723f587e809de94ac8ee79c9d3168d">Local::getCodigoPostal1</a></div><div class="ttdeci">int getCodigoPostal1() const</div><div class="ttdef"><b>Definition:</b> <a href="local_8cpp_source.html#l00036">local.cpp:36</a></div></div>
+<div class="ttc" id="class_local_html_a2d768ccf56d02a9dae7e87c973c9876a"><div class="ttname"><a href="class_local.html#a2d768ccf56d02a9dae7e87c973c9876a">Local::Local</a></div><div class="ttdeci">Local()</div><div class="ttdef"><b>Definition:</b> <a href="local_8h_source.html#l00026">local.h:26</a></div></div>
+<div class="ttc" id="class_codigo_postal_invalido_html"><div class="ttname"><a href="class_codigo_postal_invalido.html">CodigoPostalInvalido</a></div><div class="ttdef"><b>Definition:</b> <a href="local_8h_source.html#l00069">local.h:69</a></div></div>
+<div class="ttc" id="class_local_html_a5d6744ed8f259160383b6b2c18db107a"><div class="ttname"><a href="class_local.html#a5d6744ed8f259160383b6b2c18db107a">Local::setCodigoPostal1</a></div><div class="ttdeci">void setCodigoPostal1(int cp1)</div><div class="ttdef"><b>Definition:</b> <a href="local_8cpp_source.html#l00044">local.cpp:44</a></div></div>
+<div class="ttc" id="local_8h_html"><div class="ttname"><a href="local_8h.html">local.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

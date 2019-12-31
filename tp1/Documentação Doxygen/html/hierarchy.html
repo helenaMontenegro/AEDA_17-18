@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: Hierarquia de classes</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Hierarquia de classes</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock">Esta lista de heranças está organizada, dentro do possível, por ordem alfabética:</div><div class="directory">
+<div class="levels">[nível de detalhes <span onclick="javascript:toggleLevel(1);">1</span><span onclick="javascript:toggleLevel(2);">2</span><span onclick="javascript:toggleLevel(3);">3</span>]</div><table class="directory">
+<tr id="row_0_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_0_" class="arrow" onclick="toggleFolder('0_')">&#9660;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_acidente.html" target="_self">Acidente</a></td><td class="desc">Tem como variaveis o "local" onde ocorreu, pertencente a classe <a class="el" href="class_local.html">Local</a>; a "data" na qual ocorreu, pertencente a classe <a class="el" href="class_data.html">Data</a>; uma variavel denominada "tratado" do tipo bool, que caso seja true, significa que o acidente foi tratado, ou seja, tem socorristas </td></tr>
+<tr id="row_0_0_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_acidente_viacao.html" target="_self">AcidenteViacao</a></td><td class="desc">Derivada da Classe <a class="el" href="class_acidente.html" title="Tem como variaveis o &quot;local&quot; onde ocorreu, pertencente a classe Local; a &quot;data&quot; na qual ocorreu...">Acidente</a>, tem como atributos o numero de feridos e de veiculos envolvidos no acidente e uma variavel do tipo booleano que indica se o acidente ocorreu numa estrada nacional </td></tr>
+<tr id="row_0_1_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_assalto.html" target="_self">Assalto</a></td><td class="desc">Derivada da classe <a class="el" href="class_acidente.html" title="Tem como variaveis o &quot;local&quot; onde ocorreu, pertencente a classe Local; a &quot;data&quot; na qual ocorreu...">Acidente</a>, tem como variaveis o numero de feridos decorrentes do acidente e uma variavel do tipo bool que indica se o assalto ocorreu numa casa comercial (true) ou numa casa particular (false) </td></tr>
+<tr id="row_0_2_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span id="arr_0_2_" class="arrow" onclick="toggleFolder('0_2_')">&#9660;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_incendio.html" target="_self">Incendio</a></td><td class="desc">Derivada da classe <a class="el" href="class_acidente.html" title="Tem como variaveis o &quot;local&quot; onde ocorreu, pertencente a classe Local; a &quot;data&quot; na qual ocorreu...">Acidente</a>, tem como variaveis o numero de bombeiros e o numero de carros de bombeiro necessarios para apagar o incendio </td></tr>
+<tr id="row_0_2_0_" class="even"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_incendio_domestico.html" target="_self">IncendioDomestico</a></td><td class="desc">Derivada da classe <a class="el" href="class_incendio.html" title="Derivada da classe Acidente, tem como variaveis o numero de bombeiros e o numero de carros de bombeir...">Incendio</a>, tem uma vari�vel booleana que indica se o incendio aconteceu num apartamento (true) ou numa moradia (false) </td></tr>
+<tr id="row_0_2_1_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_incendio_florestal.html" target="_self">IncendioFlorestal</a></td><td class="desc">Derivada da classe <a class="el" href="class_incendio.html" title="Derivada da classe Acidente, tem como variaveis o numero de bombeiros e o numero de carros de bombeir...">Incendio</a>. Tem como variavel a area que o incendio alcancou </td></tr>
+<tr id="row_1_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_ano_invalido.html" target="_self">AnoInvalido</a></td><td class="desc"></td></tr>
+<tr id="row_2_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_codigo_postal_invalido.html" target="_self">CodigoPostalInvalido</a></td><td class="desc"></td></tr>
+<tr id="row_3_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_compara_por_data.html" target="_self">ComparaPorData</a></td><td class="desc"></td></tr>
+<tr id="row_4_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_data.html" target="_self">Data</a></td><td class="desc"></td></tr>
+<tr id="row_5_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_data_invalida.html" target="_self">DataInvalida</a></td><td class="desc"></td></tr>
+<tr id="row_6_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_dia_invalido.html" target="_self">DiaInvalido</a></td><td class="desc"></td></tr>
+<tr id="row_7_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_local.html" target="_self">Local</a></td><td class="desc"></td></tr>
+<tr id="row_8_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_mes_invalido.html" target="_self">MesInvalido</a></td><td class="desc"></td></tr>
+<tr id="row_9_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_9_" class="arrow" onclick="toggleFolder('9_')">&#9660;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_posto_socorro.html" target="_self">PostoSocorro</a></td><td class="desc">Tem como variaveis o local onde ocorreu, pertencente a classe <a class="el" href="class_local.html">Local</a>, a data na qual ocorreu, pertencente a classe <a class="el" href="class_data.html">Data</a>, o numero de socorristas e o numero de veiculos disponiveis para assistencia e um vetor de apontador para acidentes que o posto trata </td></tr>
+<tr id="row_9_0_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_bombeiros.html" target="_self">Bombeiros</a></td><td class="desc"></td></tr>
+<tr id="row_9_1_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_inem.html" target="_self">Inem</a></td><td class="desc"></td></tr>
+<tr id="row_9_2_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_policia.html" target="_self">Policia</a></td><td class="desc"></td></tr>
+<tr id="row_10_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_sem_recursos_disponiveis.html" target="_self">SemRecursosDisponiveis</a></td><td class="desc">Excecao <a class="el" href="class_sem_recursos_disponiveis.html" title="Excecao SemRecursosDisponiveis. ">SemRecursosDisponiveis</a> </td></tr>
+<tr id="row_11_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_sistema.html" target="_self">Sistema</a></td><td class="desc"></td></tr>
+</table>
+</div><!-- directory -->
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

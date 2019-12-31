@@ -1,0 +1,12 @@
+Nome do condutor: Susana Silva
+Data do acidente: 12-3-2014
+
+Nome do condutor: Jorge Miguel
+Data do acidente: 12-11-2014
+
+Nome do condutor: Maria Fonseca
+Data do acidente: 12-11-2014
+
+Nome do condutor: Afonso Henriques
+Data do acidente: 12-2-2015
+

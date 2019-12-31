@@ -1,0 +1,42 @@
+Bombeiros
+Local: Porto
+Codigo Postal: 4200-200
+Numero de socorristas: 50
+Numero de veiculos: 30
+Numero de ambulancias: 15
+Numero de autotanques: 15
+
+Policia
+Local: Porto
+Codigo Postal: 4500-200
+Numero de socorristas: 50
+Numero de veiculos: 30
+Tipo de veiculo: Carro
+
+Inem
+Local: Guimaraes
+Codigo Postal: 3020-200
+Numero de socorristas: 25
+Numero de veiculos: 10
+Tipo de veiculo: Carro
+
+Inem
+Local: Porto
+Codigo Postal: 6200-333
+Numero de socorristas: 30
+Numero de veiculos: 30
+Tipo de veiculo: Moto
+
+Inem
+Local: Viseu
+Codigo Postal: 6000-500
+Numero de socorristas: 25
+Numero de veiculos: 10
+Tipo de veiculo: Ambulancia
+
+Inem
+Local: Porto
+Codigo Postal: 1222-222
+Numero de socorristas: 12
+Numero de veiculos: 12
+Tipo de veiculo: Moto

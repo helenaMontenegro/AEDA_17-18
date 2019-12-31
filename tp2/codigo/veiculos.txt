@@ -1,0 +1,15 @@
+Marca do veiculo: Lancia
+Data do ultimo acidente: 17-5-2012
+Numero de acidentes: 4
+
+Marca do veiculo: Fiat
+Data do ultimo acidente: 17-2-2013
+Numero de acidentes: 3
+
+Marca do veiculo: Honda
+Data do ultimo acidente: 12-11-2014
+Numero de acidentes: 1
+
+Marca do veiculo: Renault
+Data do ultimo acidente: 12-11-2014
+Numero de acidentes: 1

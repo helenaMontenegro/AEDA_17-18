@@ -1,0 +1,7 @@
+Nome da oficina: ArranjaVeic
+Disponibilidade da oficina: 3
+2 marcas representadas pela oficina: Fiat, Lancia
+
+Nome da oficina: ReparaVeic
+Disponibilidade da oficina: 4
+3 marcas representadas pela oficina: Peugeot, Fiat, Renault
